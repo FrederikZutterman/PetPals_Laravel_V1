@@ -18,3 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//  Show the account information
+Route::get('/profile/account', 'ProfileAccountController@edit');
+//  Update the account information
+Route::post('profile/account', 'ProfileAccountController@update')->name('profile.update');
+
+//  Show the account-settings information
+Route::get('/profile/account/settings', 'ProfileAccountController@settings');
