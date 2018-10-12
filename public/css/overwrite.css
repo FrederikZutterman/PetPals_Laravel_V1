@@ -1,0 +1,35 @@
+body{
+    background-color: #f1eee5;
+    font-family: chewy;
+}
+/*
+    Werkt niet
+*/
+body .card i .fas .fa-heart .profile .fa-profile {
+    font-size: 10em;
+    color: red;
+}
+
+.pph45 {
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-family: Chewy;
+    font-weight: 400;
+    font-style: normal
+}
+.pp-txt-blue {
+    color: #40bdc8;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #4b1c0e;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.white {
+    color: white;
+}

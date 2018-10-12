@@ -1,0 +1,30 @@
+$user = Auth::user();
+        $user_id = $user->id;
+        $user_people_id = $user->people_id;
+
+//return Auth::User()->with('roles')->get();
+        //return $user->roles();
+        //return $user->role->name;
+        //return $user::find(Auth::user()->id)->with('roles')->get();
+        //return $user::find(Auth::user()->id);
+        //return User::find(1)->roles()->name;
+        //return User::find(1)->roles_name;
+        
+        /*return $user_role = User::where('id', 1)
+                                    ->with('people')->get();
+                                    /*
+                                    ->with('roles')
+                                    ->with('people')->get();/*
+                                        ->where('id', $user_id)
+                                        ->get();
+                                        */
+        /*
+        $data = DB::table('users')
+                    ->join('people', 'people_id', '=', 'users.people_id')
+                    ->select('users.*', 'people.*')
+                    ->where('users.id', $user_id)
+                    ->get();
+
+        return $data;
+        */
+        //return view('profile.account.index');
